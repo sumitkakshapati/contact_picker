@@ -24,6 +24,8 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+    namespace "me.schlaubi.fluttercontactpicker"
+
     compileSdkVersion 32
 
     sourceSets {
